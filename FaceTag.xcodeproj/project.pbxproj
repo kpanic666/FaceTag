@@ -11,6 +11,10 @@
 		E92DD0C026F64B8100B3AD12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DD0BF26F64B8100B3AD12 /* ContentView.swift */; };
 		E92DD0C226F64B8200B3AD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92DD0C126F64B8200B3AD12 /* Assets.xcassets */; };
 		E92DD0C526F64B8200B3AD12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92DD0C426F64B8200B3AD12 /* Preview Assets.xcassets */; };
+		E92DD0CD26F65D2300B3AD12 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DD0CC26F65D2300B3AD12 /* Contact.swift */; };
+		E92DD0CF26F6613900B3AD12 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DD0CE26F6613900B3AD12 /* ContactRow.swift */; };
+		E92DD0D126F6716200B3AD12 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DD0D026F6716200B3AD12 /* ImagePicker.swift */; };
+		E92DD0D326F6759D00B3AD12 /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DD0D226F6759D00B3AD12 /* EditContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E92DD0C126F64B8200B3AD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92DD0C426F64B8200B3AD12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E92DD0C626F64B8200B3AD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92DD0CC26F65D2300B3AD12 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E92DD0CE26F6613900B3AD12 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		E92DD0D026F6716200B3AD12 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E92DD0D226F6759D00B3AD12 /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				E92DD0BD26F64B8100B3AD12 /* FaceTagApp.swift */,
 				E92DD0BF26F64B8100B3AD12 /* ContentView.swift */,
+				E92DD0D226F6759D00B3AD12 /* EditContactView.swift */,
+				E92DD0D026F6716200B3AD12 /* ImagePicker.swift */,
+				E92DD0CE26F6613900B3AD12 /* ContactRow.swift */,
+				E92DD0CC26F65D2300B3AD12 /* Contact.swift */,
 				E92DD0C126F64B8200B3AD12 /* Assets.xcassets */,
 				E92DD0C626F64B8200B3AD12 /* Info.plist */,
 				E92DD0C326F64B8200B3AD12 /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92DD0CD26F65D2300B3AD12 /* Contact.swift in Sources */,
 				E92DD0C026F64B8100B3AD12 /* ContentView.swift in Sources */,
+				E92DD0D126F6716200B3AD12 /* ImagePicker.swift in Sources */,
 				E92DD0BE26F64B8100B3AD12 /* FaceTagApp.swift in Sources */,
+				E92DD0CF26F6613900B3AD12 /* ContactRow.swift in Sources */,
+				E92DD0D326F6759D00B3AD12 /* EditContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
